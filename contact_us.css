@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+legend{
+    font-size: 1.5rem;
+    text-shadow:2px 2px 2px black;
+    font-family: cursive;
+    margin-left:2rem;
+    text-transform: uppercase;
+
+}
+body{
+    padding:2rem;
+    background-image:linear-gradient(to top,whitesmoke,lightcoral);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+fieldset{
+    border-radius: 20px;
+    padding:2rem;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    border:2px solid black;
+    box-shadow:2px 2px 2px black;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-top:2rem;
+    font-family:cursive;
+
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 2px white;
+}
+
+button{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    width:20vw;
+    border:2px solid black;
+    border-radius:10px;
+}
+button:hover{
+    background-color:lightskyblue;
+}
+button:active{
+    background-color:navy;
+    color:lightskyblue
+}
+input{
+    padding:0.7rem;
+    border:2px solid black;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
