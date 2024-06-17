@@ -19,6 +19,9 @@ body{
 #links{
     text-align: center;
 }
+.tacoImage{
+    text-align: center;
+}
 ul{
     list-style-type:none;
     display:inline-block;

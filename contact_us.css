@@ -1,4 +1,4 @@
-*{
+/* *{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -61,4 +61,65 @@ input{
     border:2px solid black;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --BGCOLOR:#CADCFC;
+    --BGCOLOR1:#8AB6F9;
+    --BGCOLOR2:#00246B;
+}
+body{
+    background-color:var(--BGCOLOR);    
+    min-height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+fieldset{
+    padding: 2rem;
+    max-width: 50rem;
+    border:3px solid var(--BGCOLOR2);
+    border-radius:5px;
+}
+code{
+    color:var(--BGCOLOR2);
+}
+button{
+    padding:5px 12px;
+    background-color: var(--BGCOLOR1);
+    border:2px solid var(--BGCOLOR2);
+    color:var(--BGCOLOR);
+    font-weight: 600;
+    border-radius: 3px;
+}
+button:hover{
+    background-color:var(--BGCOLOR);
+    color:var(--BGCOLOR1);
+}
+button:active{
+    background-color: var(--BGCOLOR1);
+    color: var(--BGCOLOR2);
+}
+.txt,.dp,.txtArea{
+    height: 2rem;
+    border:2px solid var(--BGCOLOR2);
+    color:var(--BGCOLOR2);
+    padding:4px 8px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    text-shadow:2px 2px 4px var(--BGCOLOR2);
+}
+label{
+    font-size: 1rem;
 }
